@@ -1,0 +1,130 @@
+body{
+background-color: #E8E4E0;
+margin: 0;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+header {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+    header h1 {
+  font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+    
+    }
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  padding: 40px 20px;
+}
+.welcome{
+  align-self: flex-start;
+  margin-bottom: auto;
+  text-align: left;
+}
+.subject{
+  font-size: 25px;
+  text-align: center;
+  max-width: 950px;
+  margin: 0 auto;
+  margin-bottom: auto;
+}
+.nav{
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 20px;
+  height: 70px;
+  border-radius: 40%;
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+  justify-content:center;
+}
+.link{
+  color:#5C3D2E;
+  text-decoration: none;
+}
+color: #3B2A1A ;
+#f{
+  position: static;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  margin: 30px;
+  background-color: #A0694A;
+  text-align: center;
+  position: static;
+  
+  font-family: "Playwrite NO", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style:normal;
+}
+table{
+  border-collapse: collapse;
+  width: auto;
+  margin: 0 auto;
+} 
+th{
+  text-align: center;
+  padding: 20px;
+  background-color: #A0694A;
+}
+.n{
+  color: red;
+}
+td{
+  text-align: center;
+  padding: 20px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.c{
+  display: flex;
+  gap: 70px;
+}
+#contact{
+  text-decoration: none;
+  padding: 50px;
+  color:#5C3D2E;
+  font-size: x-large;
+}
+@media screen and (max-width: 600px) {
+    .send-text {
+        font-size: 20px; 
+    }
+   
+    .footer-icons {
+        flex-direction: column; 
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .send-text {
+        font-size: 24px;
+    }
+}
+}
+
+
