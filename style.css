@@ -100,6 +100,15 @@ form{
   flex-direction: column;
   gap: 20px;
 }
+input, textarea {
+    width: 100%;       
+    max-width: 500px; 
+    padding: 12px;
+    margin: 10px 0;    
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+    box-sizing: border-box; 
+}
 .c{
   display: flex;
   gap: 70px;
@@ -124,6 +133,16 @@ form{
 @media screen and (min-width: 601px) and (max-width: 900px) {
     .send-text {
         font-size: 20px;
+    }
+}
+@media screen and (max-width: 600px) {
+    form {
+        width: 90%;      
+        margin: 0 auto;  
+    }
+    
+    input, textarea {
+        font-size: 16px; 
     }
 }
 }
